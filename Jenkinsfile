@@ -1,5 +1,5 @@
 pipeline {
-    agent {label "nginx_tst2"}
+    agent {label "nginx_tst3"}
     stages {
         stage("Checkout") {
             steps {
