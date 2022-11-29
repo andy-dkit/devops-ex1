@@ -10,7 +10,7 @@ pipeline {
         }
         stage("Copy Files to Nginx") {
             steps {
-                sh "cp * /usr/share/nginx/html"
+                sh "cp -r * /usr/share/nginx/html"
             }
         }       
     }
